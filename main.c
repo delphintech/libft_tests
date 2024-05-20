@@ -6,7 +6,7 @@
 /*   By: dabouab <dabouab@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/15 14:55:42 by dabouab           #+#    #+#             */
-/*   Updated: 2024/05/16 17:12:04 by dabouab          ###   ########.fr       */
+/*   Updated: 2024/05/20 12:10:41 by dabouab          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,8 +33,8 @@ int	main(void)
 	test_memcmp();
 	test_memmove();
 	test_strnstr();
-	// test_strlcpy();
-	// test_strlcat();
+	test_strlcpy();
+	test_strlcat();
 	// test_atoi();
 
 	// test_calloc();

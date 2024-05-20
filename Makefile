@@ -30,8 +30,8 @@ SRC_NAME = test_isalpha \
 	test_memcmp \
 	test_memmove \
 	test_strnstr \
-	# test_strlcpy \
-	# test_strlcat \
+	test_strlcpy \
+	test_strlcat \
 	# test_atoi \
 	# test_calloc \
 	# test_strdup \
@@ -67,7 +67,10 @@ fclean	:	clean					## Appelle la precedente puis supprime l'executable.
 		rm -f $(NAME)
 		
 re	:	fclean all        ## Supprime tout et recompile tout
-	
+
+tbug : $(OBJS)
+	cc -g -o $(NAME) $(OBJS) $(LIB) -std=c99 
+
 ## Empèche Makefile d'associer le nom de ses règles à un fichier s'il en existe un 
 ## à leur nom dans le directory
 .PHONY: all clean fclean re
