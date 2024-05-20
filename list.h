@@ -22,10 +22,10 @@ void	test_memmove(void);
 void	test_strnstr(void);
 void	test_strlcpy(void);
 void	test_strlcat(void);
-// void	test_atoi(void);
+void	test_atoi(void);
 
-// void	test_calloc(void);
-// void	test_strdup(void);
+void	test_calloc(void);
+void	test_strdup(void);
 
 // void	test_substr(void);
 // void	test_strjoin(void);
