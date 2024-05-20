@@ -35,7 +35,7 @@ SRC_NAME = test_isalpha \
 	test_atoi \
 	test_calloc \
 	test_strdup \
-	# test_substr \
+	test_substr \
 	# test_strjoin \
 	# test_strtrim \
 	# test_split \

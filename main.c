@@ -6,7 +6,7 @@
 /*   By: dabouab <dabouab@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/15 14:55:42 by dabouab           #+#    #+#             */
-/*   Updated: 2024/05/20 17:29:26 by dabouab          ###   ########.fr       */
+/*   Updated: 2024/05/20 17:35:20 by dabouab          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ int	main(void)
 	test_calloc();
 	test_strdup();
 
-	// test_substr();
+	test_substr();
 	// test_strjoin();
 	// test_strtrim();
 	// test_split();
