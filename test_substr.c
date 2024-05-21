@@ -6,7 +6,7 @@
 /*   By: dabouab <dabouab@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/20 17:37:01 by dabouab           #+#    #+#             */
-/*   Updated: 2024/05/20 18:10:59 by dabouab          ###   ########.fr       */
+/*   Updated: 2024/05/21 09:57:50 by dabouab          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,11 +34,11 @@ void	test_substr(void)
 		{
 			printf("Test: Ceci est un test, %d, %d\n", start[i], size[i]);
 			printf("Expected: %s | Got: %s \n", reel[i], ft);
-			if (ft)
-				free(ft);
 			KO;
 			return;
 		}
+		if (ft)
+			free(ft);
 		i++;
 	}
 	OK;	

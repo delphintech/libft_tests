@@ -36,8 +36,8 @@ SRC_NAME = test_isalpha \
 	test_calloc \
 	test_strdup \
 	test_substr \
-	# test_strjoin \
-	# test_strtrim \
+	test_strjoin \
+	test_strtrim \
 	# test_split \
 	# test_itoa \
 	# test_strmapi \

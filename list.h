@@ -28,8 +28,8 @@ void	test_calloc(void);
 void	test_strdup(void);
 
 void	test_substr(void);
-// void	test_strjoin(void);
-// void	test_strtrim(void);
+void	test_strjoin(void);
+void	test_strtrim(void);
 // void	test_split(void);
 // void	test_itoa(void);
 // void	test_strmapi(void);

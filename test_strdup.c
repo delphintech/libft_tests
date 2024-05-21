@@ -6,7 +6,7 @@
 /*   By: dabouab <dabouab@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/20 16:29:11 by dabouab           #+#    #+#             */
-/*   Updated: 2024/05/20 17:32:54 by dabouab          ###   ########.fr       */
+/*   Updated: 2024/05/21 09:57:16 by dabouab          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,10 +29,10 @@ void	test_strdup(void)
 		printf("Test: %s\n", "Ceci est un test");
 		printf("Expected: %s | Got: %s\n", reel, ft);
 		KO;
-		free(ft);
-		free(reel);
 		return;
 	}
+	free(ft);
+	free(reel);
 
 	// TEST 2
 	// ft = ft_strdup(p);
@@ -53,10 +53,10 @@ void	test_strdup(void)
 		printf("Test: %s\n", "");
 		printf("Expected: %s | Got: %s\n", reel, ft);
 		KO;
-		free(ft);
-		free(reel);
 		return;
 	}
+	free(ft);
+	free(reel);
 
 	OK;	
 }
