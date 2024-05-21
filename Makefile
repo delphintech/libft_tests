@@ -44,8 +44,8 @@ SRC_NAME = test_isalpha \
 	test_striteri \
 	test_putchar_fd \
 	test_putstr_fd \
-	# test_putendl_fd \
-	# test_putnbr_fd
+	test_putendl_fd \
+	test_putnbr_fd
 
 # Liste des sources
 SRCS = $(addsuffix .c,$(SRC_NAME)) main.c

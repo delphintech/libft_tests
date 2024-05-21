@@ -36,7 +36,7 @@ void	test_strmapi(void);
 void	test_striteri(void);
 void	test_putchar_fd(void);
 void	test_putstr_fd(void);
-// void	test_putendl_fd(void);
-// void	test_putnbr_fd(void);
+void	test_putendl_fd(void);
+void	test_putnbr_fd(void);
 
 #endif
