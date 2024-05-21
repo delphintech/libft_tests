@@ -39,11 +39,11 @@ SRC_NAME = test_isalpha \
 	test_strjoin \
 	test_strtrim \
 	test_split \
-	# test_itoa \
-	# test_strmapi \
-	# test_striteri \
-	# test_putchar_fd \
-	# test_putstr_fd \
+	test_itoa \
+	test_strmapi \
+	test_striteri \
+	test_putchar_fd \
+	test_putstr_fd \
 	# test_putendl_fd \
 	# test_putnbr_fd
 

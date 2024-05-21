@@ -6,7 +6,7 @@
 /*   By: dabouab <dabouab@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/15 14:55:42 by dabouab           #+#    #+#             */
-/*   Updated: 2024/05/21 10:23:35 by dabouab          ###   ########.fr       */
+/*   Updated: 2024/05/21 16:39:56 by dabouab          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,11 +44,11 @@ int	main(void)
 	test_strjoin();
 	test_strtrim();
 	test_split();
-	// test_itoa();
-	// test_strmapi();
-	// test_striteri();
-	// test_putchar_fd();
-	// test_putstr_fd();
+	test_itoa();
+	test_strmapi();
+	test_striteri();
+	test_putchar_fd();
+	test_putstr_fd();
 	// test_putendl_fd();
 	// test_putnbr_fd();
 }
