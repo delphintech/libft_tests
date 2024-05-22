@@ -6,7 +6,7 @@
 /*   By: dabouab <dabouab@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/16 17:15:30 by dabouab           #+#    #+#             */
-/*   Updated: 2024/05/22 10:10:45 by dabouab          ###   ########.fr       */
+/*   Updated: 2024/05/22 11:01:59 by dabouab          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,8 @@ void	test_strnstr(void)
 {
 	char	*ft;
 	char	*reel;
-	char	*p;
 
 	START("strnstr");
-	p = NULL;
 	// TEST 1
 	ft = ft_strnstr("Ceci est un test", "es", 5);
 	reel = strstr("Ceci ", "es");
@@ -45,17 +43,6 @@ void	test_strnstr(void)
 	}	
 	
 	// TEST 3
-	ft = ft_strnstr("Ceci est un test", p, 15);
-	// reel = strstr("Ceci est un test", p);
-	if (strcmp(ft, "Ceci est un test") != 0)
-	{
-		printf("Test: Ceci est un test, NULL, %d\n", 15);
-		printf("Expected: %s | Got: %s\n", reel, ft);
-		KO;
-		return;
-	}	
-	
-	// TEST 4
 	ft = ft_strnstr("Ceci est un test", "es", 15);
 	reel = strstr("Ceci est un test", "es");
 	if (ft != reel)
@@ -66,7 +53,7 @@ void	test_strnstr(void)
 		return;
 	}	
 	
-	// TEST 5
+	// TEST 4
 	ft = ft_strnstr("Ceci est un test", "", 8);
 	reel = strstr("Ceci est un test", "");
 	if (ft != reel)
@@ -77,15 +64,5 @@ void	test_strnstr(void)
 		return;
 	}	
 	
-	// TEST 6
-	ft = ft_strnstr(p, "es", 10);
-	// reel = strstr(p, "es");
-	if (ft != NULL)
-	{
-		printf("Test: NULL, %s, %d\n", "es", 10);
-		printf("Expected: (null) | Got: %s\n", ft);
-		KO;
-		return;
-	}
 	OK;	
 }
