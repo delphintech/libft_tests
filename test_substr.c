@@ -6,7 +6,7 @@
 /*   By: dabouab <dabouab@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/20 17:37:01 by dabouab           #+#    #+#             */
-/*   Updated: 2024/05/21 09:57:50 by dabouab          ###   ########.fr       */
+/*   Updated: 2024/05/22 11:18:35 by dabouab          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	test_substr(void)
 {
 	int		i;
 	char	*ft;
-	char	reel[3][15] = {"ci es", "", "i est un test"};
+	char	reel[3][15] = {"ci est", "", "i est un test"};
 	char	*str = "Ceci est un test";
 	int		start[3] = {2, 20, 3};
 	int		size[3] = {6, 5, 15};
