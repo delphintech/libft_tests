@@ -46,15 +46,15 @@ SRC_NAME = test_isalpha \
 	test_putstr_fd \
 	test_putendl_fd \
 	test_putnbr_fd \
-	test_ft_lstnew \
-	# test_ft_lstadd_front \
-	# test_ft_lstsize \
-	# test_ft_lstlast \
-	# test_ft_lstadd_back \
-	# test_ft_lstdelone \
-	# test_ft_lstclear \
-	# test_ft_lstiter \
-	# test_ft_lstmap
+	test_lstnew \
+	test_lstadd_front \
+	test_lstsize \
+	# test_lstlast \
+	# test_lstadd_back \
+	# test_lstdelone \
+	# test_lstclear \
+	# test_lstiter \
+	# test_lstmap
 
 # Liste des sources
 SRCS = $(addsuffix .c,$(SRC_NAME)) main.c

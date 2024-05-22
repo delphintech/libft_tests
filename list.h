@@ -40,14 +40,14 @@ void	test_putendl_fd(void);
 void	test_putnbr_fd(void);
 
 // BONUS
-void	test_ft_lstnew(void);
-// void	test_ft_lstadd_front(void);
-// void	test_ft_lstsize(void);
-// void	test_ft_lstlast(void);
-// void	test_ft_lstadd_back(void);
-// void	test_ft_lstdelone(void);
-// void	test_ft_lstclear(void);
-// void	test_ft_lstiter(void);
-// void	test_ft_lstmap(void);
+void	test_lstnew(void);
+void	test_lstadd_front(void);
+void	test_lstsize(void);
+// void	test_lstlast(void);
+// void	test_lstadd_back(void);
+// void	test_lstdelone(void);
+// void	test_lstclear(void);
+// void	test_lstiter(void);
+// void	test_lstmap(void);
 
 #endif
