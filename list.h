@@ -43,7 +43,7 @@ void	test_putnbr_fd(void);
 void	test_lstnew(void);
 void	test_lstadd_front(void);
 void	test_lstsize(void);
-// void	test_lstlast(void);
+void	test_lstlast(void);
 // void	test_lstadd_back(void);
 // void	test_lstdelone(void);
 // void	test_lstclear(void);

@@ -49,7 +49,7 @@ SRC_NAME = test_isalpha \
 	test_lstnew \
 	test_lstadd_front \
 	test_lstsize \
-	# test_lstlast \
+	test_lstlast \
 	# test_lstadd_back \
 	# test_lstdelone \
 	# test_lstclear \
