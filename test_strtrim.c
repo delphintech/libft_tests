@@ -6,7 +6,7 @@
 /*   By: dabouab <dabouab@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/21 10:08:09 by dabouab           #+#    #+#             */
-/*   Updated: 2024/05/21 10:21:10 by dabouab          ###   ########.fr       */
+/*   Updated: 2024/05/22 11:30:31 by dabouab          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,11 +22,11 @@ void	test_strtrim(void)
 	START("strtrim");
 	
 	// TEST 1
-	ft = ft_strtrim("Ceci 0est 0un 0test!", "e0!");
-	if (strcmp(ft, "Cci st un tst") != 0)
+	ft = ft_strtrim("000Ceci 0est 0un 0test\n\n!", "e0!\n");
+	if (strcmp(ft, "Ceci 0est 0un 0test") != 0)
 	{
-		printf("Test: '%s', '%s'\n", "Ceci 0est 0un 0test!", "e0!");
-		printf("Expected: 'Cci st un tst | Got: %s\n", ft);
+		printf("Test: '%s', '%s'\n", "Ceci 0est 0un 0test!", "e0!\n");
+		printf("Expected: 'Ceci 0est 0un 0test' | Got: %s\n", ft);
 		KO;
 		return;
 	}

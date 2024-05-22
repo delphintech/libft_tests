@@ -6,7 +6,7 @@
 /*   By: dabouab <dabouab@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/21 10:25:15 by dabouab           #+#    #+#             */
-/*   Updated: 2024/05/21 11:57:22 by dabouab          ###   ########.fr       */
+/*   Updated: 2024/05/22 12:25:56 by dabouab          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ void	test_split(void)
 	// TEST 1
 	i = 0;
 	ft = ft_split("Ceci0est0un0test!", '0');
-	while (*ft[i])
+	while (ft[i])
 	{
 		if (strcmp(ft[i], reel[i]) != 0)
 		{
