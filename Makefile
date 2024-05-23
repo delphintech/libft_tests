@@ -50,11 +50,11 @@ SRC_NAME = test_isalpha \
 	test_lstadd_front \
 	test_lstsize \
 	test_lstlast \
-	# test_lstadd_back \
-	# test_lstdelone \
-	# test_lstclear \
-	# test_lstiter \
-	# test_lstmap
+	test_lstadd_back \
+	test_lstdelone \
+	test_lstclear \
+	test_lstiter \
+	test_lstmap
 
 # Liste des sources
 SRCS = $(addsuffix .c,$(SRC_NAME)) main.c
